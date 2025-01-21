@@ -76,4 +76,4 @@ console.log(n + parseInt(n1)); // not giving error cuz we specify the type of n1
 let num = 15;
 let bool = true;
 let result = num + Number(bool); // Implicit type coercion
-console.log(result); // Output: 16
+console.log(result); // NOW THINK WHAT WILL BE THE VALUE OF result
