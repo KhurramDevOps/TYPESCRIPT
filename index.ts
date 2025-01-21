@@ -74,3 +74,23 @@ let fullName2 = `My full name is ${firstName} ${lastName} `;
 //  How to check the type of variable
 let odd_number: number = 11;
 console.log(typeof odd_number);
+
+// Concatenation
+console.log("Fan", "Boys");
+console.log("hello" + "world");
+console.log("v".concat("g"));
+console.log("2" + "5");
+console.log(2 + 5);
+console.log(2 + "5");
+
+//  Type Coercion
+let n = 5;
+let n1 = "10";
+console.log(n + Number(n1)); // not giving error cuz we specify the type of n1
+console.log(n + parseInt(n1)); // not giving error cuz we specify the type of n1
+
+// Second Example of Type Coercion
+let num: number = 15;
+let bool: boolean = true;
+let result = num + Number(bool); // Implicit type coercion
+console.log(result); // NOW THINK WHAT WILL BE THE VALUE OF result
