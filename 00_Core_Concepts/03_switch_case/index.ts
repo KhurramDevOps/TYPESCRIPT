@@ -1,5 +1,5 @@
 // SWITCH CASES
-let myage: number = 70;
+let myage: number = 40;
 
 switch (true) {
   case myage <= 0:
@@ -55,5 +55,28 @@ switch (true) {
       console.log("You are an adult");
     } else if (myage >= 41 && myage <= 70) {
       console.log("You are senior citizen");
+    }
+}
+
+// NESTED SWITCH CASES
+
+switch (true) {
+  case myage <= 0:
+    console.log("Age cant be negative");
+    break;
+  case myage >= 1 && myage <= 12:
+    console.log("You are a child");
+    break;
+  case myage >= 13 && myage <= 70:
+    switch (true) {
+      case myage >= 13 && myage <= 19:
+        console.log("You are a teenager");
+        break;
+      case myage >= 20 && myage <= 40:
+        console.log("You are an adult");
+        break;
+      case myage >= 41 && myage <= 70:
+        console.log("You are senior citizen");
+        break;
     }
 }
