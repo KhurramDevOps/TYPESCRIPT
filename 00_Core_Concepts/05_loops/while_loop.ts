@@ -80,7 +80,8 @@ while (m <= 3) {
   s = 0;
 }
 console.log("\n");
-//  another complex example of nested while loop:
+//  another complex example of nested while loop
+// In this Loop we make Multiplication Tables with While loop:
 
 let number = 1;
 while (number <= 5) {
