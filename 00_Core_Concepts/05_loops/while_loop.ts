@@ -66,3 +66,32 @@ while (l <= 10) {
   console.log(l);
   l++;
 }
+
+console.log("\n");
+// example with nested while loop:
+let m = 0;
+let s = 0;
+while (m <= 3) {
+  while (s <= 3) {
+    console.log(m + " " + s);
+    s++;
+  }
+  m++;
+  s = 0;
+}
+console.log("\n");
+//  another complex example of nested while loop:
+
+let number = 1;
+while (number <= 5) {
+  let multiplier = 1;
+  console.log(`Multiplication Table for ${number}:`);
+
+  while (multiplier <= 10) {
+    console.log(`${number} x ${multiplier} = ${number * multiplier}`);
+    multiplier++;
+  }
+
+  console.log("\n"); // New line for better readability
+  number++;
+}
