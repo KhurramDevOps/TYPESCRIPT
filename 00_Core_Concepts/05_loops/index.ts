@@ -37,4 +37,30 @@ for (let i = 0; i < 5; i++) {
 }
 // Output: 0, 1, 2, 4
 
+// NESTED FOR LOOPS
+// Nested for loops are used to execute a block of code for a specified number of times.
+// The outer loop is used to execute the code for a specified number of times.
+// The inner loop is used to execute the code for a specified number of times for each iteration of
+// the outer loop.
+// The syntax of nested for loops is as follows:
+// for (initialization; condition; increment/decrement) {
+//     for (initialization; condition; increment/decrement) {
+//         // code to be executed
+//     }
+// }
+// Example of a student numbers
+let studentNumbers = 5;
+for (let i = 0; i < studentNumbers; i++) {
+  for (let j = 0; j < studentNumbers; j++) {
+    console.log(`Student ${i + 1} has ${j + 1} books`);
+  }
+}
+
+// Another example
+for (let x = 0; x < 5; x++) {
+  for (let y = 0; y < 5; y++) {
+    console.log(x, y);
+  }
+}
+
 // While loop is used to execute a block of code as long as a specified condition is true.
