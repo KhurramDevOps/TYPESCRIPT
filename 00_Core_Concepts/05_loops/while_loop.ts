@@ -41,3 +41,28 @@ while (j <= 7) {
 }
 
 console.log("\n");
+
+// example with continue:
+let k = 0;
+while (k <= 9) {
+  if (k == 5) {
+    k++;
+    continue;
+  }
+  console.log(k);
+  k++;
+}
+console.log("\n");
+
+// Complex While Loop Example:
+// Let's say we want to print the numbers from 1 to 10, but we want
+// to skip the numbers 3, 6, and 9.
+let l = 0;
+while (l <= 10) {
+  if (l == 3 || l == 6 || l == 9) {
+    l++;
+    continue;
+  }
+  console.log(l);
+  l++;
+}
