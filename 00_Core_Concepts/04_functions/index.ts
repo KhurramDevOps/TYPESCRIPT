@@ -24,3 +24,10 @@ const addition = (num1: number, num2: number): number => {
   return num1 + num2;
 };
 console.log(addition(10, 20));
+
+// subtract function
+const subtract = (a: number, b: number): number => {
+  return a - b;
+};
+
+//
