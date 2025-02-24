@@ -1,1 +1,1 @@
-All Typescript work
+Typescript Concepts Practice
