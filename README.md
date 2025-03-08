@@ -1,1 +1,0 @@
-Typescript Concepts Practice
