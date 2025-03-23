@@ -94,3 +94,4 @@ let num: number = 15;
 let bool: boolean = true;
 let result = num + Number(bool); // Implicit type coercion
 console.log(result); // NOW THINK WHAT WILL BE THE VALUE OF result
+
