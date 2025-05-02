@@ -1,1 +1,1 @@
-# **Learning Typescript!**
+# **Learning Typescript.!**
