@@ -1,4 +1,4 @@
-# **!Learning Typescript**!
+# **!Learning Typescript**
 
 
 ***
